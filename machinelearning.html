@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Machine Learning Analysis: Gentrification Trends</title>
+    <link rel="stylesheet" href="css/styles.css">
+
+</head>
+<body>
+
+    <header>
+        <h1 style="text-align: center;">Using Machine Learning Analysis To Understand Gentrification Trends</h1>
+    </header>
+
+    <main>
+        <section>
+            <h2>1. Identifying Key Factors in Gentrification</h2>
+            <p>Machine learning was used to analyze the factors most influential in gentrification trends in neighborhoods, specifically examining changes in housing prices from 2000 to 2022. The analysis utilized a model called <strong>Random Forest Classification</strong> to determine which factors, such as crime rates, education levels, and poverty, are most closely associated with changes in housing prices. Neighborhoods where housing prices increased by 50% or more were considered to have experienced gentrification.</p>
+            <p>The model focused on identifying the relationships between demographic and socioeconomic factors and housing price changes. The results indicated that <strong>crime rate</strong> was the most significant factor linked to gentrification, suggesting that reductions in crime may be a key driver of neighborhood transformation.</p>
+        </section>
+
+        <section>
+            <h2>2. Feature Importance</h2>
+            <div class="content-container" style="display: flex; justify-content: space-between; align-items: flex-start;">
+                <div class="text-container" style="flex: 1; margin-right: 20px;">
+                    <p>Understanding the most important features influencing gentrification was a key part of the analysis. The Random Forest model generated feature importance scores, which ranked factors based on their impact on predicting gentrification.</p>
+                    <p>Among the various factors, crime rate emerged as the most influential, highlighting its central role in neighborhood transformation.</p>
+                </div>
+                <div class="chart"  align="left">
+                    <img src="classifiers.png" alt="Feature Importance Chart" width="1000">
+                    <p style="text-align: center;"><em>The importance of different factors in predicting gentrification.</em></p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>3. Exploring Relationships with a Heatmap</h2>
+            <div class="content-container" style="display: flex; justify-content: space-between; align-items: flex-start;">
+                <div class="image" style="flex: 1; margin-right: 20px;">
+                    <img src="heatmap.png" width="1000" height="auto" frameborder="0" style="display: block; max-width: 100%; height: auto;">
+                    <p style="text-align: center;"><em>Visual representation of the relationships between various factors.</em></p>
+                </div>
+                <div class="text-container" style="flex: 1;">
+                    <p>A heatmap was created to visually represent the correlations between various factors, helping to identify key relationships and potential multicollinearity. This tool provided insights into how different factors, such as housing appreciation and poverty rate, are interconnected.</p>
+                    <p>Notably, the strongest correlation was found between <strong>housing appreciation</strong> (change in housing prices) and gentrification. Additionally, a high correlation was observed between <strong>poverty rates</strong> and <strong>education levels</strong> (percentage of population without a high school diploma), suggesting that these two factors often overlap in neighborhoods.</p>
+                </div>
+            </div>
+        </section> 
+
+        <section>
+            <h2>4. Boxplots: Comparing Gentrified vs. Non-Gentrified Neighborhoods</h2>
+            <div class="content-container" style="display: flex; justify-content: space-between; align-items: flex-start;">
+                <div class="text-container" style="flex: 1; margin-right: 20px;">
+                    <p>Boxplots were used to compare the distribution of key factors between gentrified and non-gentrified neighborhoods. They highlight significant differences in the distribution of factors like education levels, poverty rates, and population density.</p>
+                    <p>For example, neighborhoods that experienced gentrification typically had lower levels of <strong>education</strong> (fewer individuals aged 25+ without a high school diploma), while non-gentrified neighborhoods showed higher levels of this factor.</p>
+                    <p>Population density, however, showed little difference between the two groups, suggesting that it is not a significant differentiator for gentrification.</p>
+                </div>
+                <div class="image-container" align="center">
+                    <img src="boxplots.png" width="1000" height="auto">
+                    <p style="text-align: center;"><em>Boxplot 0 represents gentrified neighborhoods.<br>Boxplot 1 represents non-gentrified neighborhoods.</em></p>
+                </div>
+            </div>
+        </section>    
+
+        <section>
+            <h2>Key Findings</h2>
+            <p>The analysis revealed that <strong>crime rate</strong> was the most significant factor in predicting gentrification. This suggests that neighborhoods with higher crime rates are more likely to experience changes due to gentrification. Additionally, factors like <strong>poverty rate</strong> and <strong>education levels</strong> (e.g., the percentage of the population without a high school diploma) were strongly linked to gentrification trends, often occurring together in the same neighborhoods.</p>
+            <p>Interestingly, <strong>population density</strong> showed little correlation with gentrification, meaning that simply having more people in an area doesn't necessarily predict if it will gentrify.</p>
+            <h3>Conclusion</h3>
+            <p>Overall, the analysis highlights that rising housing prices, crime, and socio-economic factors like poverty and education levels are key drivers of gentrification. Understanding these patterns can help urban planners, policymakers, and community leaders address the challenges of gentrification and work toward creating more equitable and sustainable neighborhoods.</p>
+        </section>
+        
+    </main>
+
+    <a href="visuals.html">Click Here to Check Out Rising Rent Prices vs. Income</a><br>
+    <a href="index.html">Click Here to Go Back to the General Information Page</a>
+
+
+</body>
+
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gentrification Trends on NYC Housing Affordability</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <header>
+        <h1 style="text-align: center;">Gentrification Trends on NYC Housing Affordability</h1><br>
+        <p style="text-align: center; color: yellow; font-weight: bold;">By Melina Yang, Phillyscia Stanley, and Anika Bansal</p>
+    </header>
+
+    <section id="intro">
+        <h2>About Our Project</h2>
+        <p>Ever worried about how gentrification affects the housing market? Through machine learning and predictive analysis, this site offers insights into the future housing market, serving as an early warning system for New Yorkers concerned about housing affordability. Designed to be intuitive and accessible, the website presents data visualizations and interactive charts that showcase changing demographics, socioeconomic factors, and housing trends.</p>
+        <p>Key features include before-and-after visualizations of gentrified areas, predictive models of housing prices, and insights into demographics such as occupation, income, and education levels, allowing users to easily interpret and explore gentrification trends in their communities.</p>
+    <section>
+    <section id="interactive map">
+        <h2>Check Out This Interactive Map</h2>
+        <p>Explore neighborhoods to view detailed demographics, socioeconomic factors, and other housing affordability-related data. The map highlights Manhattan’s counties, color-coded by gentrification status—purple for non-gentrified areas and yellow for gentrified ones. Hovering over a county reveals its name and gentrification status, while clicking on it provides in-depth statistics, offering insights into local demographics and their relationship to gentrification.</p>
+        <div id="heat map">
+            <iframe src="manhattan_map.html" width="100%" height="600px" title="Interactive Heatmap"></iframe>
+        </div>
+    </section> 
+
+    <section class="analysis"></section>
+    <h2>Gentrification Analysis of Manhattan Neighborhoods</h2>
+    <h3>Non-Gentrified Areas: Chelsea/Clinton/Midtown, Upper West Side, and Stuyvesant Town/Turtle Bay</h3>
+    <p>These neighborhoods show steady housing appreciation, with values ranging from 22.25% to 33.86%. Despite relatively high housing appreciation, these areas are not gentrified.</p>
+    <p>Areas like the Upper West Side and Chelsea/Clinton/Midtown show relatively modest housing appreciation, but they also have lower poverty rates and higher educational attainment, indicated by the percentage of the population aged 25+ without a high school diploma, which is between 4.3% and 6.4%. These neighborhoods also have more stable crime rates, with figures generally below 15.</p>
+    <p>These areas have a higher population density (from 36.5 to 112.9 people per square mile), particularly in the Upper East Side and Stuyvesant Town/Turtle Bay, which might suggest urbanization but not yet gentrification.</p>
+
+    <h3>Gentrified Areas: Morningside Heights/Hamilton Heights, Central Harlem, Lower East Side/Chinatown</h3>
+    <p>These areas have experienced substantial housing appreciation, with values ranging from 50.26% to 72.10%. This indicates significant gentrification, as rising housing costs are often a hallmark of such processes.</p>
+    <p>The Central Harlem and Morningside Heights/Hamilton Heights neighborhoods, which have seen increases as high as 56.64% to 72.10%, are marked by high housing appreciation, but they also have higher poverty rates (ranging from 24.2% to 28.2%) and lower education levels (with 18.5% to 19.5% of the population over 25 lacking a high school diploma). This points to a potential disparity where rising rents might be displacing long-term, lower-income residents.</p>
+    <p>Gentrified areas such as Lower East Side/Chinatown and Morningside Heights/Hamilton Heights also have high racial diversity indices (ranging from 0.68 to 0.74), but these neighborhoods also report higher crime rates (with crime rates ranging from 14.5 to 41.4), which can be an indicator of socio-economic stressors linked to gentrification.</p>
+
+    <h3>Conclusion</h3>
+    
+    <p>The data highlights a clear divide between gentrified and non-gentrified areas in Manhattan. While housing prices in gentrified neighborhoods have seen significant appreciation, these areas also face challenges such as rising poverty rates, higher crime rates, and greater educational disparities. For example, 24.2% of renter households are severely rent-burdened, underscoring affordability issues in neighborhoods experiencing rapid rent increases. Additionally, with 76% of new housing units being market-rate, luxury developments are likely contributing to gentrification and displacement.</p>
+    <p>Properties with expiring subsidies could further exacerbate affordability problems, potentially reducing affordable housing options in the future. The demographic and socio-economic data, including crime rates and population density, provides important context for understanding the socio-economic shifts that are often driven by gentrification. While gentrification can bring investment and development, it often does so at the cost of long-term residents, particularly those from lower-income backgrounds, revealing the complex impact gentrification has on the landscape of New York City.</p>
+
+    </section>
+
+    <h2 style="color: lightcyan; margin-bottom: 20px;">Interested in learning more? Look at these:</h2>
+    <a href="machinelearning.html">Combining Gentrification Trends and Machine Learning</a><br>
+    <a href="visuals.html">Rising Rent Prices vs. Income</a>
+</body>
+</html>
