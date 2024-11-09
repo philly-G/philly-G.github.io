@@ -1,0 +1,39 @@
+/* Apply Lavender Blush as the background color */
+body {
+  background-color: rgb(225, 102, 143); /* Soft, light pinkish lavender tone */
+  color: black; /* Black text for better contrast and readability */
+  font-family: 'Times New Roman', monospace;
+  margin: 50px;
+}
+
+/* Styling for headers with white color */
+h1, h2, h3, h4, h5, h6 {
+  color: white; /* White headers for strong contrast against background */
+  font-family: 'Times New Roman', monospace;
+  margin-bottom: 10px;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+/* Styling for paragraphs */
+p {
+  color: whitesmoke; /* Black text for readability */
+  margin-bottom: 20px;
+}
+
+
+
+/* Add specific margins around sections */
+section {
+  margin: 50px 0;
+}
+
+a {
+  font-family: 'Times New Roman', monospace;
+  color: lightcyan;
+  text-decoration: none; 
+  font-weight: bold; 
+  margin-bottom: 20px;
+}
